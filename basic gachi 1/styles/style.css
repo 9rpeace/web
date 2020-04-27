@@ -6,4 +6,21 @@ body {
 .header {
     background-color: black;
     color: chartreuse;
+    width: 960px;
+}
+
+.content {
+    background-color: crimson;
+    color: darkcyan;
+    width: 960px;
+}
+
+.footer{
+    background-color: darkgreen;
+    color: darkslateblue;
+    width: 960px;
+}
+
+h1 {
+    margin: 0;
 }
