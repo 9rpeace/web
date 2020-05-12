@@ -1,0 +1,64 @@
+body {
+    padding: 0;
+    margin: 0;
+    
+}
+
+header {
+    background-color: forestgreen;
+}
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    clear: both;
+    
+}
+
+.container:after{
+    content:"."; 
+    display:block; 
+    height:0; 
+    clear:both; 
+    visibility:hidden; 
+    line-height:0
+}
+.col1 {
+    float: left;
+    width: 50%;
+    background-color: darkslateblue;
+}
+
+.col2 {
+    float: right;
+    width: 50%;
+    background-color: deeppink;
+}
+
+footer {
+    background-color: gold;
+}
+
+.p_left {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.p_right {
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+footer::after {
+    content:"."; 
+    display:block; 
+    height:0; 
+    clear:both; 
+    visibility:hidden; 
+    line-height:0
+}
