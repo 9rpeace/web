@@ -22,13 +22,24 @@ h1 {
     width: 40%;
 }
 
+.imgcol2 {
+    float: right;
+}
+
+.ul_col2 {
+    text-align: left;
+    list-style-type: none;
+}
+
 .col3 {
     background-color: grey;
     float: left;
     width: 30%;
 }
 
-
+.imgcol3 {
+    float: left;
+}
 
 .fl_left {
     float: left;
