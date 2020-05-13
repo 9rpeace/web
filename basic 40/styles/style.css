@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    font-size: 13px;
+    font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 h1 {
@@ -35,12 +37,31 @@ header {
 .col1 {
     width: 630px;
     float: left;
+    background-color: olivedrab;
+}
+
+.pCol1Centre {
+    text-align: center;
+}
+
+.pCol1Justify {
+    text-align: justify;
 }
 
 .imgcol1 {
     float: left;
+    margin: 0 15px 15px 0;
 }
 
+.box {
+    clear: both;
+    background-color: orange;
+    overflow: hidden;
+}
+
+.pBox {
+    text-align: right;
+}
 .col2 {
     width: 300px;
     float: right;
