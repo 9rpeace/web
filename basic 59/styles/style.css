@@ -1,0 +1,88 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 13px;
+}
+h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal
+}
+
+a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+a:hover {
+    color: coral;
+}
+
+.header {
+    width: 100%;
+    
+    
+}
+
+header {
+    color: cadetblue;
+    background-color: #333333;
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header h2 {
+    font-size: 13px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header nav {
+    float: right;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+header nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav li.last {
+    margin-right: 0;
+}
+
+.hGroup {
+    padding: 20px;
+    float: left;
+}
+
+.wrapper {
+    width: 100%;
+}
+.container {
+    width: 958px;
+    margin: 0 auto;
+    border: 1px solid #333333;
+}   
+
+.footer {
+    width: 100%;
+    overflow: hidden;
+}
+
+footer {
+    width: 960px;
+    margin: 0 auto;
+    background-color: coral;
+}
