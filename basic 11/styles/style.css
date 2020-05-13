@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: khaki;
+    height: 100%;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.col1 {
+    background-color: gold;
+    float: left;
+    width: 30%;
+}
+
+.col2 {
+    background-color: green;
+    float: left;
+    width: 40%;
+}
+
+.col3 {
+    background-color: grey;
+    float: left;
+    width: 30%;
+}
+
+
+
+.fl_left {
+    float: left;
+}
+
+.fl_right {
+    float: right;
+}
+
+.footer {
+    clear: both;
+    background-color: lawngreen ;
+    overflow: hidden;
+}
