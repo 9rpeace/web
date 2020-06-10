@@ -1,21 +1,27 @@
-let count = +prompt('How many cats must be drawn', 'Enter number here');
-let smile = prompt('1 for :), 2 for :(, 3 for -_-, cat for guess what');
+let firstNumber = 36325;
+let secondNumber = 9824;
+let thirdnumber = 777;
 
-switch (smile) {
-    case 1: smile = ':)'
-        break;
-    case 2: smile = ':('
-        break;
-    case 3: smile = '-_-'
-        break;
-    case 'cat': smile = '=^.^='
-        break;
+
+function multiply(value1, value2) {
+    return value1 + value2;
+
+}
+multiply(firstNumber, secondNumber);
+
+function add(multiply, value3) {
+    let result = multiply + value3;
+    console.log (result);
+}
+add(multiply(firstNumber, secondNumber), thirdnumber);
+
+
+
+
+
+
+function foo (callback) {
+    return callback;
 }
 
-function drawCats(howManyTimes, whatToDraw) {
-    for (let i=0; i < howManyTimes; i++) {
-        console.log(i + " " + whatToDraw);
-    }
-}
-
-drawCats(count, smile);
+foo(function() {alert("Hello")});
