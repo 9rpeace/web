@@ -1,27 +1,11 @@
-let firstNumber = 36325;
-let secondNumber = 9824;
-let thirdnumber = 777;
+let new_arr = {1:'mon', 2: 'tue', 3:'wed', 4:'thu', 5:'fri', 6:'sat', 7:'sun'};
+let lang = prompt('Enter lang', 'ru/eng');
 
 
-function multiply(value1, value2) {
-    return value1 + value2;
-
-}
-multiply(firstNumber, secondNumber);
-
-function add(multiply, value3) {
-    let result = multiply + value3;
-    console.log (result);
-}
-add(multiply(firstNumber, secondNumber), thirdnumber);
-
-
-
-
-
-
-function foo (callback) {
-    return callback;
+let weekDays = {
+    'ru': ['пн'],
+    'eng': ['mon', 'tue']
 }
 
-foo(function() {alert("Hello")});
+console.log(weekDays['ru'][0]);
+console.log(weekDays['eng'][1]);
