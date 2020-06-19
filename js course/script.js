@@ -1,11 +1,5 @@
-let new_arr = {1:'mon', 2: 'tue', 3:'wed', 4:'thu', 5:'fri', 6:'sat', 7:'sun'};
-let lang = prompt('Enter lang', 'ru/eng');
+let arr  = [1,2,3,4,5];
 
-
-let weekDays = {
-    'ru': ['пн'],
-    'eng': ['mon', 'tue']
+for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
 }
-
-console.log(weekDays['ru'][0]);
-console.log(weekDays['eng'][1]);
